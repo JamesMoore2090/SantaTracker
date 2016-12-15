@@ -1,0 +1,48 @@
+Idea:
+Create a tracking app that shows where Santa currently is.
+
+
+SpotsyVolFireSantaTracker.com
+	
+There are 2 sides to the app:
+Public- 
+sees where Santa is at real time
+Private: 
+tracks where you are and have been with a line. 
+Tracks times how long it takes to run santa through the hood.
+This allows for analysis to be done
+Future: Allow people to upload pictures/(videos?) at points
+
+
+Public side:
+Map Santa
+view Blog
+Add Comments
+Maybe add pictures here? Or create a pictures page?
+Admin login
+
+
+if(santaTracker == active){
+showMap with currentLocation;
+	[Future: if(addPhoto == yes){
+			getCurrentlocation();
+			addMarker();
+			addPhoto;	
+		}]
+} else {
+	showLandingPage “Santa is currently resting. His next adventure will take him to ____, ____, _____; starting at ______ time. Please join us then.”
+} [future: showMap of previous trips with points of interest]
+
+
+
+
+Private side:
+Functions
+Track - start and stop
+Create front Page
+Add/approve to Blog Posts
+
+
+
+
+

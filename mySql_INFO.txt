@@ -1,0 +1,17 @@
+Setup
+
+Flask
+    sudo pip install Flask
+ 
+Update everything
+    sudo apt-get update
+    
+Install 
+
+
+
+sudo service mysql status
+
+sudo service mysql stop
+
+sudo service mysql start
